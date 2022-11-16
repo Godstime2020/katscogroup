@@ -1,0 +1,19 @@
+{
+  "name": "katsco-2.0",
+  "version": "1.0.0",
+  "description": "KatsCo landing page",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
+    "watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --watch"
+  },
+  "keywords": [],
+  "author": "KatsCo",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  },
+  "dependencies": {
+    "tailwindcss-intersect": "^1.0.1"
+  }
+}
