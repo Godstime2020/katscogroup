@@ -15,5 +15,9 @@
   },
   "dependencies": {
     "tailwindcss-intersect": "^1.0.1"
+  },
+  "engines": {
+    "npm": "8.19.2",
+    "node": "18.10.0"
   }
 }

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <title>KatsCo Group</title>
+    <!-- Swiper CSS -->
+    <link rel="icon" type="image/x-icon" href="../../assets/icons/kk.ico">
+   
+  </head>
+
+  <body>
+    <header class="sticky top-0 z-50">
+      <nav class="relative bg-veryDarkBlue rounded-lg shadow pt-6">
+        <div class="flex items-center justify-between px-6">
+          <div class="pt-2">
+            <a href="./index.html"
+              ><img src="../../assets/icons/logo1.png" alt=" " width="20%"
+            /></a>
+          </div>
+          <div class="hidden text-2xl space-x-6 md:flex text-white">
+            <a href="./team.html" class="hover:text-board_color_highlight"
+              >TEAM</a
+            >
+            <a href="./services.html" class="hover:text-board_color_highlight"
+              >SERVICES</a
+            >
+            <a href="./FAQs.html" class="hover:text-board_color_highlight"
+            >FAQs</a
+          >
+            <div
+              class="bg-board_color_highlight w-[160px] text-center text-[20px] hover:text-[22px] rounded-full"
+            >
+              <a
+                href="./multimeta.html"
+                class="hover:text-white hover:transition-all"
+                >MULTI-META</a
+              >
+            </div>
+
+            <div
+            class="bg-board_color w-[160px] text-center text-[20px] hover:text-[22px] rounded-full"
+          >
+            <a
+              href="https://katscollc-195.gitbook.io/whitepaper/"
+              target="_blank"
+              class="hover:text-white hover:transition-all"
+              >WHITE PAPER</a
+            >
+          </div>
+          </div>
+
+          <!-- Hamburger Icon -->
+          <div class="rounded-full p-2 hover:bg-slate-600">
+            <button
+              id="menu-btn"
+              class="block hamburger md:hidden focus:outline-none mt-1"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+          <!-- Mobile Menu -->
+          <div class="md:hidden">
+            <div
+              id="menu"
+              class="absolute bg-board_color flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold sm:w-[200px] sm:h-[400px] sm:self-center inset-y-0 right-0 top-8 drop-shadow-md"
+            >
+              <a href="./team.html" class="hover:text-board_color_highlight"
+                >TEAM</a
+              >
+              <a href="./services.html" class="hover:text-board_color_highlight"
+                >SERVICES</a
+              >
+              <a href="./FAQs.html" class="hover:text-board_color_highlight"
+              >FAQs</a
+              >
+              <div
+                class="bg-board_color_highlight w-[160px] text-center text-[20px] hover:text-[22px] rounded-full"
+              >
+                <a href="./services.html" class="hover:text-white"
+                  >MULTI-META</a
+                >
+              </div>
+              <div
+              class="bg-veryDarkBlue w-[160px] text-center text-[20px] hover:text-[22px] rounded-full"
+            >
+              <a
+                href="https://katscollc-195.gitbook.io/whitepaper/"
+                target="_blank"
+                class="hover:text-white hover:transition-all"
+                >WHITE PAPER</a
+              >
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <main class="flex flex-col md:flex-row container mx-auto my-10">
+    <section class="flex flex-col items-center my-7">
+      <h1 class=" text-center text-xl md:text-3xl ">FAQs</h1>
+      <p class="hidden md:block md:text-center text-[12px]">Everything you need to know about us</p>
+    </section>
+    <div class="accordion flex flex-col items-center justify-center shadow-xl">
+      <!--  Panel 1  -->
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-1" class="hidden">
+        <label for="panel-1" class="relative block bg-black  p-4 shadow border-b border-grey">
+          Who is KatsCo?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">KatsCo Group Is an American based start up company Formulated in the 
+            Great State of Texas. our sole purpose is to guide the masses onto web 3 and the crypto industry by showing them 
+            the benefits and safe practices to abide to enjoy all its benefits.
+          </p>
+        </div>
+      </div>
+      <!-- Panel 2 -->
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-2" class="hidden">
+        <label for="panel-2" class="relative block bg-black  p-4 shadow border-b border-grey">
+          Who are your Partners?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">KatsCo Partners are currently Anspar, BlockchainSpace, 
+            Asus Rog & Grid+ hardware wallet. We are always networking to keep building our partnerships and 
+            mentors as we develop our reputation within the community.
+          </p>
+        </div>
+      </div>
+      <!--  Panel 3  -->
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-3" class="hidden">
+        <label for="panel-3" class="relative block bg-black  p-4 shadow border-b border-grey">
+          How does KatsCo's services -Web3 -KatsCo Bundles -Financial Solutions work?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">By interacting with our native platform you can easily 
+            choose the services you wish for KatsCo to help you and your community in any way possible you seem 
+            fit to accelerate your goals with in web 3.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-4" class="hidden">
+        <label for="panel-4" class="relative block bg-black  p-4 shadow border-b border-grey">
+          What is the inspiration of Crimson Saga?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">Crimson saga is a derivative of years of experience and 
+            interactions that has evolved into a beautiful story that will captivate those who reminisce with old 
+            school RPG games. Along with a time life of characters to remember.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-5" class="hidden">
+        <label for="panel-5" class="relative block bg-black  p-4 shadow border-b border-grey">
+          Where can I interact with the community members?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">You can communicate with our community by any of the social media 
+            platforms especially twitter. Our founder enjoys to personally chat 1 on 1 with the community at all times. 
+            You can also come into our discord for more alpha and community games with prices and merch constantly evolving.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-6" class="hidden">
+        <label for="panel-6" class="relative block bg-black  p-4 shadow border-b border-grey">
+          How to sign up for Whitelist?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">KatsCo Will Post in all their social medias pre-launch to any 
+            of our mints by posting links to our wallet aggregator to have you on our whitelist.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-7" class="hidden">
+        <label for="panel-7" class="relative block bg-black  p-4 shadow border-b border-grey">
+          How to stake in-game tokens?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">We will implement a staking system to those who not only 
+            hold our nfts but also who participate in game. We will launch a staking system prior to game launch 
+            which will be native with in KatsCo ONI DEX.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-8" class="hidden">
+        <label for="panel-8" class="relative block bg-black  p-4 shadow border-b border-grey">
+          What makes KatsCo unique?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">KatsCo Is a unification of minds and creators with a vast experience within 
+            many industries that when formulated as a TEAM create a metropolis of innovations.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-9" class="hidden">
+        <label for="panel-9" class="relative block bg-black  p-4 shadow border-b border-grey">
+          Where can I purchase KatsCo merch?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">KatsCo Will Have its Merch on our website, where it will be curated 
+            though out the year to stay constant with not only all the seasons and holidays but also with the newest fashion 
+            sense with in the industry.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-10" class="hidden">
+        <label for="panel-10" class="relative block bg-black  p-4 shadow border-b border-grey">
+          How can I purchase WebComic NFTs?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">KatsCo will create an Nft webcomic mint page to 
+            purchase it with crypto or credit cards. This NFT is needed to enter our token gated community to 
+            enjoy the lore we have created to cater those who have yearned and missed great story telling.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-11" class="hidden">
+        <label for="panel-11" class="relative block bg-black  p-4 shadow border-b border-grey">
+          What is the total supply of Crim Token?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">KatsCo has estimated a total supply but due to the mint to 
+            Burn mechanisms within the Game we will try our best for the tokens to never hyperinflate and lose its value.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-12" class="hidden">
+        <label for="panel-12" class="relative block bg-black  p-4 shadow border-b border-grey">
+          Can I earn free Kats/Crim Token in playing Crimson Saga?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">Yes, you can earn Crim tokens with in the game by IN game drops along with in 
+            game market sales. You can purchase Kats Tokens or get them airdropped for free by being one of our early adopters.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-13" class="hidden">
+        <label for="panel-13" class="relative block bg-black  p-4 shadow border-b border-grey">
+          How to withdraw my in-game tokens?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">We will create an ease of access to withdraw your in game token 
+            by using our ONI DEX natively which we will have a Credit Card system formulated to be accessible world wise 
+            once we launch the game.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-14" class="hidden">
+        <label for="panel-14" class="relative block bg-black  p-4 shadow border-b border-grey">
+          How to claim rewards?
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">You can claim rewards in game, or put in a ticket with in discord or reach out 
+            to one of the KatsCo team members if anything that doesn’t function properly. You can also claim white list and airdrops 
+            by reaching out to one of the KatsCo team members for help.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-2/3">
+        <input type="checkbox" name="panel" id="panel-15" class="hidden">
+        <label for="panel-15" class="relative block bg-black  p-4 shadow border-b border-grey">
+          Contact chat & support team
+        </label>
+        <div class="accordion__content overflow-hidden bg-grey-lighter">
+          <p class="accordion__body p-4" id="panel1">You can Email us at ContactKatsco@katscogroup.io
+            Or reach out to us with Discord.
+          </p>
+        </div>
+      </div>
+
+
+     </div>
+    </main>
+
+    <hr />
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue w-[100%]">
+      <section class="p-3 md:flex md:justify-between w-[100%]">
+        <div class="py-3 shadow mx-4">
+          <img src="../../assets/icons/logo1.png" width="25%" alt="" />
+          <p>
+            The Right Innovations<br />
+            For The Future Of Tomorrow
+          </p>
+        </div>
+        <div class="flex shadow md:justify-between">
+          <div class="text-left shadow text-white p-6 w-1/2">
+            <h2>SERVICES</h2>
+            <a href="./services.html#web3_services" class="block">Web3 Services</a>
+            <a href="./services.html#katsco_bundles" class="block">KatsCo Bundles</a>
+            <a href="./services.html#financial_solutions" class="block">Financial Solutions</a>
+            <a href="./services.html#ecosystem" class="block">Ecosystem</a>   
+          </div>
+          <div class="text-left shadow text-white p-6 w-1/2 sm:-ml-9">
+            <h2>Contact Us</h2>
+            <div class="leading-2">
+              <p class="">
+                <i class ="fa-solid fa-phone"></i>+1-972-901-0038
+              </p>
+              <p class="sm:text-sm mt-2">
+                <i class ="fa-solid fa-envelope"></i>
+                KatsCoLLC_195@hotmail.com
+              </p>
+              <p>
+                <i class ="fas fa-address-book"></i>
+                17350 State HWY 249 Ste 220 #7963 Houston, Texas 77064
+              </p>
+            </div>
+            <div class="flex space-x-6 mt-2">
+              <a href="https://m.facebook.com/groups/1028486794550677/" target="_blank" class="fab fa-facebook hover:text-blue-500"></a>
+              <a href="https://twitter.com/KatsCoGroup" target="_blank" class="fa fab fa-twitter hover:text-blue-500"></a>
+              <a href="https://www.linkedin.com/in/emil-ortiz-966440225" target="_blank" class="fa-brands fa-linkedin hover:text-blue-500"></a>
+              <a href="https://t.me/KatsumaSama" target="_blank" class="fab fa-telegram hover:text-blue-500"></a>
+              <a href="https://discord.gg/DTVWgsfqr8" target="_blank" class="fa-brands fa-discord hover:text-gray-500"></a>
+              <a href="https://github.com/KatsCoGroup/" class="fa fab fa-github hover:text-gray-500"></a>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <div class="text-white text-center">
+        Copyright &copy; 2022, All Rights Reserved
+      </div>
+    </footer>
+    <script src="../script/index.js"></script>
+    <!-- Swiper JS -->
+    <script src="../script/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="../script/script.js"></script>
+  </body>
+</html>
